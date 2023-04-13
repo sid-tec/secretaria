@@ -1,0 +1,1245 @@
+{
+    "reunioes": [
+        {
+            "numero": 558,
+            "data": "2021-11-17 13:00:00",
+            "ordinaria": true,
+            "aprovada": 666,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Informes",
+                    "falas": []
+                },
+                {
+                    "titulo": "Aprovação das atas das 556ª RO e 557ª RE do GFQ",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "A ata da 556ª Reunião Odinária do GFQ, de setembro de 2021, seja aprovada com algumas correções",
+                            "votos": [
+                                14
+                            ]
+                        },
+                        {
+                            "quem": "raph",
+                            "texto": "A ata da 557ª Reunião Estraodinária do GFQ, de setembro de 2021, seja aprovada com algumas correções",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Data de entrega dos RADs 2021",
+                    "falas": []
+                },
+                {
+                    "titulo": "Demandas de turmas no pós-pandemia (GGQ)",
+                    "falas": []
+                },
+                {
+                    "titulo": "Assuntos Gerais",
+                    "falas": []
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 559,
+            "data": "2021-11-17 13:00:00",
+            "ordinaria": true,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Informes",
+                    "falas": []
+                },
+                {
+                    "titulo": "Data de entrega dos RADs 2021",
+                    "falas": []
+                },
+                {
+                    "titulo": "Demandas de turmas no pós-pandemia (GGQ)",
+                    "falas": []
+                },
+                {
+                    "titulo": "Pré-requisitos da disciplina GFQ00019 - Físico-Química V",
+                    "falas": []
+                },
+                {
+                    "titulo": "Assuntos Gerais",
+                    "falas": []
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 560,
+            "data": "2021-12-21 13:00:00",
+            "ordinaria": true,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Informes",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Informa que: A nova rotina de acesso aos prédios do Instituto de Química, onde a apresentação do certificado vacinal será obrigatória, antes ou no momento do ingresso nas dependências do Instituto. Informa também que o envio da minuta da Resolução CEPEx, à respeito do retorno presencial, com as sugestões do Instituto de Química"
+                        },
+                        {
+                            "quem": "rose",
+                            "texto": "Informou que no Colegiado dos Cursos de Química a Coordenação irá conversar com os Departamentos para ver como serão oferecidos as disciplinas no próximo semestre"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Aprovação das atas das 556a, 557a, 558a e 559a RO",
+                    "descricao": "Inicialmente, apreciou-se a ata da 556ª Reunião Extraordinária do GFQ, em setembro de 2021. Ressaltou-se que falta, na referida ata, a listagem de todas as disciplinas e professores. Assim, esta ata será retirada de pauta, corrigida e apreciada oportunamente",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Propõe então que as atas da 557a, 558a e 559a RO sejam aprovadas em bloco, com algumas correções",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Aprovação do Calendário de Reuniões Ordinárias do GFQ para 2022",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Apresenta o Calendário de Reuniões Ordinárias do GFQ para o ano de 2022 e propõe que o Calendário seja aprovado após alterações. ",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Resposta do GGQ quanto a questão de quebra de pré-requisitos",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Apresenta o documento com a resposta do GGQ no que se refere à inscrição de alunos sem pré-requisitos. Após ampla discussão, a plenária decide que a chefia deve insistir com à Coordenação de Curso sobre a necessidade estrita da obediência dos pré-requisitos por parta dos alunos, inclusive, incluindo, caso a caso, a especificação do discente sem pré-requisito. A chefia compromete-se a seguir este encaminhamento"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Assuntos Gerais",
+                    "falas": [
+                        {
+                            "quem": "rosa",
+                            "texto": "pergunta a respeito de novidades sobre concurso público para provimento de vagas docentes"
+                        },
+                        {
+                            "quem": "raph",
+                            "texto": "Esclareceu que em data próxima o CEPEx deve aprovar uma nova resolução sobre o assunto"
+                        },
+                        {
+                            "quem": "robe",
+                            "texto": "acrescentou que devem ocorrer mudanças na forma de execução do concurso"
+                        },
+                        {
+                            "quem": "luiz",
+                            "texto": "Solicitou que se discutisse a IN nº 15, no que tange as disciplinas que serão disponibilizadas para o ensino remoto e quais não"
+                        },
+                        {
+                            "quem": "kati",
+                            "texto": "esclarece que todos com menos de sessenta anos terão de voltar ao ensino presencial, enquanto os com sessenta anos ou mais poderão escolher se voltarão ou se permanecerão no remoto, mas, neste caso, terão de apresentar o termo de responsabilidade"
+                        },
+                        {
+                            "quem": "soni",
+                            "texto": "questiona o número de alunos em sala, no retorno ao ensino presencia"
+                        },
+                        {
+                            "quem": "kati",
+                            "texto": "Informa que várias medidas, inclusive a possibilidade de aulas aos sábados, estão sendo avaliadas com o objetivo de não haver superlotação das salas"
+                        },
+                        {
+                            "quem": "raph",
+                            "texto": "Avisa que, então, fará uma enquete, por e-mail, a todos os professores do Departamento para que digam, anonimamente, se sentem-se seguros em retornar ao presencial e quais disciplinas pensam que devem retorna a este modo e quais não"
+                        }
+                    ]
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 561,
+            "data": "2021-12-16 13:00:00",
+            "ordinaria": false,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Concurso docente",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Comenta sobre a nova resolução CEPEx"
+                        },
+                        {
+                            "quem": "robe",
+                            "texto": "Relata a necessidade jurídica da nova resolução. Diz também que a principal modificação que envolve o GFQ é o que diz respeito à prova prática, que deve, a partir de agora, ser, realmente, uma prova de natureza prática e não a usual defesa de projeto de pesquisa. Disse também que, embora, a presidência do CEPEx afirmasse que não criaria objeção ao uso de projetos de pesquisa como prova prática, estaria indo contra o texto da resolução que poderia, talvez, gerar problemas futuros"
+                        },
+                        {
+                            "quem": "raph",
+                            "texto": "Propõe que no próximo concurso, o GFQ não terá prova prática de nenhum tipo",
+                            "votos": [
+                                14
+                            ]
+                        },
+                        {
+                            "quem": "raph",
+                            "texto": "Propõe que após deliberação sejam aprovados os seguintes pontos: 1) Tratamento estatístico das velocidades de reação; 2) Teoria de Rice-Ramsperger-Kassel-Marcus (RRKM); 3) Dinâmica Molecular; 4) Teoria da velocidade absoluta de Eyring; 5) Aplicações de zeólitas em catálise; 6) Modelos estocásticos em cinética química; 7) Reações controladas por transporte; 8) Sistemas oscilantes; 9) Caracterização de intermediários de reação; 10) Cinética de reações em fluxo; 11) Teoria de colisões; 12) Métodos experimentais de cinética química; 13) Cinética de reações em cadeia; 14) Diagrama de Jablonski, fotocinética e fotocatálise",
+                            "votos": [
+                                14
+                            ]
+                        },
+                        {
+                            "quem": "raph",
+                            "texto": "Propõe que seja aprovada a pontuação do barema",
+                            "votos": [
+                                14
+                            ]
+                        },
+                        {
+                            "quem": "raph",
+                            "texto": "Propõe que seja aprovado o cronograma inicial",
+                            "votos": [
+                                14
+                            ]
+                        },
+                        {
+                            "quem": "raph",
+                            "texto": "Propõe que na prova escrita, serão disponibilizadas oito folhas, frente e verso, e o mesmo número para o rascunho",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 562,
+            "data": "2021-12-21 13:00:00",
+            "ordinaria": false,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Anteprojeto GGQ-Direção sobre disciplinas no pós-pandemia",
+                    "falas": []
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 563,
+            "data": "2022-02-08 13:00:00",
+            "ordinaria": true,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Informes",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Informa sobre a conclusão da obra no telhado do Instituto de Química e bem como a retomada das aulas presencias no período que vem",
+                            "votos": []
+                        },
+                        {
+                            "quem": "rose",
+                            "texto": "Informa, sobre o Colegiado dos Cursos de Química, em especial questões do PRN, processos de alunos e uma solicitação de quebra de pré-requisito de disciplina de outro Departamento",
+                            "votos": []
+                        },
+                        {
+                            "quem": "rosa",
+                            "texto": "Informa que, no NDE do Curso de Engenharia Química, iniciou-se uma discussão sobre uma futura alteração de ementa das disciplinas do Departamento, mas que, devido ao adiantado da hora, a discussão ficou para outra reunião",
+                            "votos": []
+                        },
+                        {
+                            "quem": "juli",
+                            "texto": "Informa, sobre a reunião extraordinária do Colegiado de Unidade, onde foi aprovado o documento do GT-covid/EGQ para o retorno das atividades presencias",
+                            "votos": []
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Projetos de extensão Pré-Universitário REAÇÃO e Pré-Vestibular Social MOTIVAÇÃO",
+                    "falas": [
+                        {
+                            "quem": "robe",
+                            "texto": "Apresenta a plenária os dois projetos de extensão",
+                            "votos": []
+                        },
+                        {
+                            "quem": "robe",
+                            "texto": "Os projetos de extensão Pré-Universitário REAÇÃO e Pré-Vestibular Social MOTIVAÇÃO sejam aprovados em bloco",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Projeto de extensão Mostra Científica Virtual DIECI UFF",
+                    "incluido": [
+                        {
+                            "quem": "soni",
+                            "texto": "",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ],
+                    "falas": [
+                        {
+                            "quem": "soni",
+                            "texto": "Apresenta a plenária o projeto de extensão Mostra Científica Virtual DIECI UFF e propoe que este seja  aprovado",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Concurso 2022: secretaria e banca",
+                    "descricao": "Após discussão são consolidados os nomes integrantes da banca do concurso de Cinética e Catálise, bem como a busca por um segundo nome de secretário do referido concurso, em suporte à servidora Sandra Regina. Assim, a banca tem os seguintes nomes: Membros Titulares: Eduardo Ariel Ponzio (UFF) (Presidente da banca), Titulação: Doutorado em Química, Vínculo: UFF, Link Lattes: http://lattes.cnpq.br/6067138956481622, CPF: 228.521.918-96; Rita de Cássia Colman Simões (UFF), Titulação: Doutorado em Engenharia Química, Vínculo: UFF, Link Lattes: http://lattes.cnpq.br/5306085939552000, CPF: 026.506.059-10; Caetano Moraes (UFRJ), Titulação: Doutorado em Engenharia Química, Vínculo: UFRJ, Link Lattes: http://lattes.cnpq.br/8624941976229364, CPF: 112.857.531-00; Thenner Rodrigues Silva (UFRJ), Titulação: Doutorado em Química, Vínculo: UFRJ, Link Lattes: http://lattes.cnpq.br/3051125440898699, CPF:097.322.266-25; Angela Sanches Rocha (UERJ), Titulação: Doutorado em Físico-Química, Vínculo: UERJ, Link Lattes: http://lattes.cnpq.br/9080624063866527, CPF: 26.228.655-20. Membros Suplentes: Júlio César Martins da Silva (UFF), Titulação: Doutorado em Ciência e Tecnologia/Química, Vínculo: UFF, Link Lattes: http://lattes.cnpq.br/9637003675209212, CPF: 975.544.486-68; Fabiana Monteiro de Oliveira (UFF), Titulação: Doutorado em Física, Vínculo: UFF, Link Lattes: http://lattes.cnpq.br/4176253071626666, CPF: 111.981.147-38; Fernando Heering Bartoloni, Titulação: Doutorado em Química Orgânica, Vínculo: UFABC, Link Lattes: http://lattes.cnpq.br/9611837159894241, CPF: 334.144.688-59; Anderson Gabriel Marques da Silva, Titulação: Doutorado em Ciências, Vínculo: PUC-Rio, Link Lattes: http://lattes.cnpq.br/6967570711596065, CPF: 097.554.016-52; Nome: Roberto de Barros Faria (UFRJ), Titulação: Doutorado em Química, Vínculo: UFRJ, Link Lattes: http://lattes.cnpq.br/6310881885990978, CPF: 310.425.467-20. Secretários: Sandra Regina Medeiros do Nascimento, Odivaldo Cambraia Alves",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Propõe a aprovação desta composição da banca",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Disciplinas remotas e presenciais para elaboração do QH 1/2022",
+                    "descricao": "Após ampla deliberação a respeito do retorno ao ensino presencial no primeiro período deste ano, é elaborada uma tabela com as opções dos docentes quando a carga horária que cada docente está disponível a dar ao Departamento, bem como se dispões a dar disciplina experimental e/ou teórica, remota ou presencial",
+                    "falas": []
+                },
+                {
+                    "titulo": "Assuntos Gerais",
+                    "falas": [
+                        {
+                            "quem": "luci",
+                            "texto": "Pede que a compra de novo servidor para o LACAP seja retomada e compromete-se a enviar os dados da compra a nova chefia",
+                            "votos": []
+                        },
+                        {
+                            "quem": "rosa",
+                            "texto": "relata a resposta quando a questão de quebra indevida de pré-requisitos de aluno em sua turma no período que está a findar-se e pede que a situação não fique sem resposta, visto a atuação pouco gentil da Coordenação dos Cursos de Química no caso em questão",
+                            "votos": []
+                        },
+                        {
+                            "quem": "raph",
+                            "texto": "Compromete-se em encaminhar, nos próximos dias, a situação e não deixar, de forma alguma, sem resposta",
+                            "votos": []
+                        }
+                    ]
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 564,
+            "data": "2022-02-22 13:00:00",
+            "ordinaria": false,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Quadro de Horários 1/2022",
+                    "falas": []
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 565,
+            "data": "2022-03-03 13:00:00",
+            "ordinaria": false,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Finalizações do Quadro de Horários 1/2022",
+                    "falas": []
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 566,
+            "data": "2022-03-09 13:00:00",
+            "ordinaria": true,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Informes",
+                    "falas": []
+                },
+                {
+                    "titulo": "Aprovação dos RADs 2021",
+                    "falas": []
+                },
+                {
+                    "titulo": "Início da discussão sobre o QH alternativo",
+                    "falas": []
+                },
+                {
+                    "titulo": "Assuntos Gerais",
+                    "falas": []
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 567,
+            "data": "2022-04-07 13:00:00",
+            "ordinaria": true,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Informes",
+                    "falas": []
+                },
+                {
+                    "titulo": "Distribuição das vagas de monitoria entre os projetos registrados no sistema",
+                    "falas": []
+                },
+                {
+                    "titulo": "Competências a serem desenvolvidas nas disciplinas do Curso de Farmácia",
+                    "falas": []
+                },
+                {
+                    "titulo": "Ajustes no Quadro de Horários 1/22",
+                    "falas": []
+                },
+                {
+                    "titulo": "Assuntos Gerais",
+                    "falas": []
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 568,
+            "data": "2022-05-13 13:00:00",
+            "ordinaria": true,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Informes",
+                    "falas": []
+                },
+                {
+                    "titulo": "Afastamento de curta duração - profa Rose",
+                    "falas": []
+                },
+                {
+                    "titulo": "Composição para o CBio/EGQ",
+                    "falas": []
+                },
+                {
+                    "titulo": "Composição para banca exames de proficiência",
+                    "falas": []
+                },
+                {
+                    "titulo": "Diálogo GFQ-GGQ",
+                    "falas": []
+                },
+                {
+                    "titulo": "Inclusão de CH de extensão nas disciplinas dos cursos de Química",
+                    "falas": []
+                },
+                {
+                    "titulo": "Assuntos Gerais",
+                    "falas": []
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 569,
+            "data": "2022-06-13 13:00:00",
+            "ordinaria": true,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Rediscussão sobre CH de extensão nas disciplinas dos cursos de Química",
+                    "falas": []
+                },
+                {
+                    "titulo": "Assuntos Gerais",
+                    "falas": []
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 570,
+            "data": "2022-07-05 13:00:00",
+            "ordinaria": false,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Discussão do PTU",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Comenta necessidade da criação do Plano de Trabalho da Unidade, dentro do Programa de Gestão, lançado, recentemente, pelo Governo Federal e seguido pela Universidade. Comenta ainda que a ideia é que haja um PTU do formato “guarda-chuva” onde serão inseridos os PTI (Plano de Trabalho Individual) dos funcionários técnico-administrativos que desejarem fazer para do Plano de Gestão. Por fim, ainda reitera a afirmação da Direção da Unidade que se o Departamento não aprovar agora a participação do mesmo no PTU, os funcionários lotados no GFQ só poderão fazer parte do Programa de Gestão quando da renovação do mesmo, o que deve ocorrer apenas no mês de dezembro deste ano e propõe que o GFQ participe no PTU. ",
+                            "votos": [
+                                11,
+                                1
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 571,
+            "data": "2022-07-05 13:00:00",
+            "ordinaria": false,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Discussão da representação dos TAEs nas reuniões departamentais",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Relatou a apresentação de um documento pelo representante dos TAEs no Colegiado de Unidade requerendo a participação dos TAEs nas plenárias departamentais. Assim, o Diretor do EGQ pediu que cada departamento deliberasse e instruíssem seus representantes no Colegiado de Unidade, onde a decisão será, por fim, proferida. Após ampla e extensa discussão, o GFQ entendeu que, independentemente do mérito da questão, o encaminhamento do documento dos TAEs à Direção da Unidade foi um encaminhamento errado. "
+                        },
+                        {
+                            "quem": "juli",
+                            "texto": "Relata que juntamente com o prof. #Luciano, representantes do GFQ no Colegiado de Unidade, levantarão, naquele fórum, uma Questão de Ordem pelo entendimento da incompetência do Colegiado de Unidade na apreciação do tema e que o mesmo seja, imediatamente, retirado de pauta e enviado aos Despertamentos de Ensino para apreciação do tema. Caso, essa Questão de Ordem seja votada e vencida. Propõe então que GFQ se posicione contrário à posição encaminhada naquele Colegiado, reservando-se o direito de discutir esse assunto no Departamento, invocando a autonomia departamental. ",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 572,
+            "data": "2022-07-25 13:00:00",
+            "ordinaria": true,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Informes",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Informa a consulta à comunidade universitária sobre a preferência geral do futuro reitor e vice-reitor da Universidade foi concluída com a vitória da chapa dos professores Antônio Cláudio e Fábio Passos. Informa também que com o final do período letivo, que ora se aproxima, as orientações para lançamento de notas foram repassadas a todos e deve ser feito até o próximo dia cinco de agosto. Já as inscrições de disciplinas pelas Departamentos de Ensino deverão ser feitas até dia quatro de agosto"
+                        },
+                        {
+                            "quem": "kati",
+                            "texto": "Informa que o processo de adesão ao Plano de Gestão já está em curso"
+                        },
+                        {
+                            "quem": "rose",
+                            "texto": "Informa que, nos NDEs de Química, os planos contendo a informação de carga horária de extensão das disciplinas de Química Nuclear e Radioquímica, bem como o de Química Ambiental, estão sendo compilados e serão enviados para os respectivos colegiados"
+                        },
+                        {
+                            "quem": "rosa",
+                            "texto": "Acrescenta que os formulários de três disciplinas de Cálculo foram apresentados e serão enviados a todos do GFQ para avaliação de se essas disciplinas devem passar a figurar como disciplinas optativas para os cursos de Química. A seguir apresenta a proposta, em discussão no colegiado de Engenharia Química, de redução da carga horária de Físico-Química Experimental V (GFQ00019) de sessenta para quarenta e cinco horas, porém, afirma que essa proposta encontra-se em debate, não tendo, ainda, nada conclusivo a esse respeito"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Afastamento de curta duração - profª #Fabiana",
+                    "falas": [
+                        {
+                            "quem": "fabi",
+                            "texto": "Explica que (.....................) e propõe que seja aprovado o afastamento de curta duração. ",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Troca do representante do GFQ no NDE de Química Industrial",
+                    "envolvidos": [
+                        "luca",
+                        "caue"
+                    ],
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Relata o recebimento do pedido do prof. #Luciano de ser substituído no Colegiado de Química Industrial pelo prof. #Cauê, que aceitou a troca. Como teríamos tempo para aprovação da troca, colocaríamos em notação na ora presente sessão. No entanto, com a convocação de uma Reunião Extraordinária daquele colegiado, a troca dos nomes se fez urgente. Então, a chefia enviou a aprovação ad referendum da troca dos nomes ao prof. Carlos Eduardo, Coordenador dos Cursos de Química. No entanto, na sessão extraordinária do colegiado, o prof. #Cauê somente pôde participar como ouvinte, pois o prof. Carlos Eduardo não teria visto o e-mail e, segundo ele, mesmo que se tivesse visto, não teria o instrumento legal para a troca. Assim, o prof. #Raphael disse que traria para apreciação e colocaria a questão em votação nessa sessão ordinária Seja aprovada a troca de representantes, do prof. #Luciano pelo prof. #Cauê. ",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Quadro de Horários 2/2022",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Raphael relata que a única coisa que ficou faltando decidir seria o nome de um docente para uma turma de Tutoria I. O prof. Júlio César disse que conversou com o prof. Carlos Eduardo e este teria dito que, se o Departamento não conseguisse esse nome, a Coordenação dos Cursos de Química poderia ver junto a outro departamento. O prof. Raphael comenta a criação de uma turma exclusiva da disciplina de Físico-Química V, como já debatido em reuniões anteriores, mas somente viabilizada agora. A seguir, passa-se a amplo debate sobre o tema. Propõe então que seja aprovado o Quadro de Horários para o período de 2/2022: GFQ00019 - Físico-Química Experimental V, turma AV, Lucas, turma BV, Eduardo, turma CV, Kátia, turma DV, professor novo aprovado no último concurso, turma EV, Roberto Carlos, turma FV, Cambraia, turma GV, Rosana, turma HV, Luciano, turma IV, Rosana; GFQ00019 - Físico-Química V, turma A5, Luiz, turma B5, Soni, turma C5, professor novo aprovado no último concurso, turma D5, Eduardo; GFQ00042 - Físico-Química IVa, turma A4; GFQ00043 - Físico-Química IVb, turma A4, Cauê; GFQ00021 - Introdução à Química Ambiental, turma A1, Júlio; GFQ00022 - Introdução à Química Quântica, turma A1, Luciano; GFQ00032 - Química Nuclear e Radioquímica, turma A1, Fabiana; GFQ00038 - Teoria Cinética dos Gases, turma B1, João; GFQ00023 - Química Quântica Aplicada, turma A1, Luciano; GFQ00036 - Métodos Avançados em Físico-Química, turma A1, Cauê; GFQ00039 - Físico-Química para Farmácia I, turma A1, João, turma B1, Raphael e turma C1, Júlio; GFQ00040 - Físico-Química para Farmácia II, turma A2, João, turma B2, Raphael e turma C2, Lucas; GFQ00044 - Fundamentos de Química e Matemática Instrumental, turma A1, Luiz e turma B1, Fabiana. ",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Assuntos Gerais",
+                    "falas": [
+                        {
+                            "quem": "caue",
+                            "texto": "Relata a preocupação com a sobra de carga horária que já ora esteja ocorrendo e que só tende a piorar caso haja a redução da demanda por parte de alguns cursos se concretize, como, por exemplo, a citada redução da carga horária dos cursos de Engenharia Química"
+                        },
+                        {
+                            "quem": "soni",
+                            "texto": "Relata a necessidade do GFQ encarar as disciplinas de orientação e aquelas como código GGQ como, de fato, disciplinas, além da necessidade do Departamento fazer uma estudo estratégico para o planejamento de metas futuras de, entre outras, disciplinas"
+                        },
+                        {
+                            "quem": "raph",
+                            "texto": "Relembra da possibilidade de oferecimento de novas disciplinas, em especial, optativas novas, como há muito solicitado na época de reformas curriculares anteriores dos Cursos de Química"
+                        }
+                    ]
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 573,
+            "ordinaria": true,
+            "aprovada": 0,
+            "data": "2021-11-17 13:00:00",
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Informes",
+                    "falas": []
+                },
+                {
+                    "titulo": "Aprovação das atas da 556a, 560a, 561a, 563a e 572a reuniões do GFQ",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Propõe que após algumas correções, seja aprovada a ata da 556ª Reunião Odinária do GFQ , de setembro de 2021",
+                            "votos": [
+                                14
+                            ]
+                        },
+                        {
+                            "quem": "raph",
+                            "texto": "Propõe que após algumas correções, seja aprovada a ata da 560ª Reunião Odinária do GFQ, de dezembro de 2021",
+                            "votos": [
+                                14
+                            ]
+                        },
+                        {
+                            "quem": "raph",
+                            "texto": "Propõe que após algumas correções, seja aprovada a ata da 561ª Reunião Extraordinária do GFQ, de dezembro de 2021",
+                            "votos": [
+                                1
+                            ]
+                        },
+                        {
+                            "quem": "raph",
+                            "texto": "Propõe que após algumas correções, seja aprovada a ata da 563ª Reunião Odinária do GFQ, fevereiro de 2022",
+                            "votos": [
+                                14
+                            ]
+                        },
+                        {
+                            "quem": "raph",
+                            "texto": "Após algumas correções, Aprovação da ata da 572ª Reunião Odinária do GFQ, de julho de 2022",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Forma de execução das próximas reuniões do GFQ",
+                    "falas": []
+                },
+                {
+                    "titulo": "Alterações comissões do GFQ",
+                    "falas": []
+                },
+                {
+                    "titulo": "Requisitos entre Físico-Química IV-B e Físico-Química V",
+                    "falas": []
+                },
+                {
+                    "titulo": "Assuntos Gerais",
+                    "falas": []
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 574,
+            "data": "2022-09-08 13:00:00",
+            "ordinaria": false,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Novas matrizes curriculares dos cursos de Química e a questão dos requisitos entre as disciplinas de Físico-Química IVa. IVb e V",
+                    "falas": []
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 575,
+            "data": "2022-09-14 13:00:00",
+            "ordinaria": false,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": " Continuação da discussão sobre as n ovas matrizes curriculares dos cursos de Química e a questão dos requisitosentre as disciplinas de Físico-Química IVa, IVb e V",
+                    "falas": []
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 576,
+            "data": "2022-10-05 13:00:00",
+            "ordinaria": true,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Informes",
+                    "falas": []
+                },
+                {
+                    "titulo": "Docência noturna e de disciplinas com turma única",
+                    "falas": []
+                },
+                {
+                    "titulo": "Solicitação do prof. Carlos Ortiz de espaço físico para realização de atividades de pesquisa",
+                    "falas": []
+                },
+                {
+                    "titulo": "Assuntos Gerais",
+                    "falas": []
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 577,
+            "data": "2022-12-12 13:00:00",
+            "ordinaria": true,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Informes",
+                    "falas": []
+                },
+                {
+                    "titulo": "Calendário de Reuniões Ordinárias - GFQ/2023",
+                    "falas": []
+                },
+                {
+                    "titulo": "Aprovação dos Projetos de Extensão - PROEX Pré-Universitário Social Reação 2023/DAQ-UFF e Pré-Universitário Popular Curso Motivação 2023, ambos sob coordenação do prof. Roberto Carlos",
+                    "falas": []
+                },
+                {
+                    "titulo": "Solicitação da profª Soni para realização de visita ao laboratório didático de Físico-Química V, no dia 24 de janeiro de 2023, de 13 a 17 h",
+                    "falas": []
+                },
+                {
+                    "titulo": "Licença para tratar de interesses particulares da técnica Liciane",
+                    "falas": []
+                },
+                {
+                    "titulo": "Discussões iniciais QH 01/23",
+                    "falas": []
+                },
+                {
+                    "titulo": "Pedido do prof. Cauê de criação da disciplina optativa no GFQ intitulada: Uso de Tecnologias Digitais de Informação e Comunicação para o Ensino de Química",
+                    "falas": []
+                },
+                {
+                    "titulo": "Pedido do prof. Luciano de criação da disciplina optativa no GFQ intitulada: Programação em Python e Aplicações em Química",
+                    "falas": []
+                },
+                {
+                    "titulo": "Assuntos Gerais",
+                    "falas": []
+                }
+            ],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "sedi"
+            ],
+            "justificaram": [
+                "lici"
+            ]
+        }
+    ]
+}
