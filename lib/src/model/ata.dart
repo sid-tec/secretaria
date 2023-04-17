@@ -122,14 +122,15 @@ class Ata {
           ? 'único: ${item.item}'
           : '${i++}. ${item.item}';
 
-      if (item.quemIncluiu.isNotEmpty) {
+      if (item.incluido.isNotEmpty) {
+        var quem = item.incluido.first.quem.first;
         r += ' - a inclusão deste item foi proposto pel';
-        r += item.quemIncluiu.first.pronome;
+        r += quem.pronome;
         r += ' ';
-        r += item.quemIncluiu.first.titulo;
+        r += quem.titulo;
         r += ' ';
-        r += item.quemIncluiu.first.nome;
-        r += ' e ${item.votosInclusao.resultado()}';
+        r += quem.nome;
+        r += ' e ${item.incluido.first.votos.resultado()}';
       }
       r += reuniao.pauta.length == i - 1 ? '. ' : '; ';
     }
@@ -152,18 +153,16 @@ class Ata {
           ? 'o item único: ${item.item}'
           : 'o item ${i++}. ${item.item}: ${item.descricao}';
 
-      for (var fala in item. .falas) {
+      for (var fala in item.falas) {
         r += ' Com a palavra ';
 
-        r += fala.quem.pronome;
-        r += fala.quem.titulo;
+        r += fala.quem.first.pronome;
+        r += fala.quem.first.titulo;
 
-        r += '${fala.quem.curto}#: ${fala.texto} ';
+        r +=
+            '${fala.quem.first.curto}#: ${fala.texto} XXXXXX ${fala.votos.resultado()} ZZZZZZZ ';
       }
 
-      for (var proposta in item.propostas) {
-        r += proposta.votacao();
-      }
       //
 
       r += reuniao.pauta.length == 1 || reuniao.pauta.length == i - 1

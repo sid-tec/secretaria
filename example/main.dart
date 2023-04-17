@@ -1,23 +1,23 @@
 import 'dart:io';
-import 'package:atas/model/servidores.dart';
-import 'package:docx_template/docx_template.dart';
-import 'package:path/path.dart' as p;
-import 'package:atas/model/reuniao.dart';
-import 'package:atas/repository/file_repo.dart';
-import 'package:atas/ata/ata.dart';
+
+import 'package:secretaria/secretaria.dart';
+import 'package:secretaria/src/model/structures/reuniao.dart';
+import 'package:secretaria/src/repository/file_repo.dart';
 //
 
 void main(List<String> arguments) async {
   var reunioes = await Repo.reunioes();
 
-  var atas = [];
+  // var atas = [];
   for (var r in reunioes) {
     print('=======================================\n\n');
-    var ata = Ata(Reuniao(reuniao: r)).ata();
-    atas.add(ata);
+    print(r);
+    // var ata = Ata(Reuniao.cria()).ata();
+    //atas.add(ata);
   }
 
-  geraTsv(atas);
+  //geraTsv(atas);
+
   //print(Servidores.nomes);
   //Repo.saveJsonFile({"reunioes": reunioes});
 }
