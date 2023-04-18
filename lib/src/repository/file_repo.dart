@@ -4,9 +4,9 @@ import 'dart:convert';
 
 class Repo {
   static var filePath =
-      p.join(Directory.current.path, 'lib\\repository', 'atas.json');
+      p.join(Directory.current.path, 'lib\\src\\repository', 'reunioes.json');
   static var tsvPath =
-      p.join(Directory.current.path, 'lib\\repository', 'tsv.txt');
+      p.join(Directory.current.path, 'lib\\src\\repository', 'tsv.txt');
 
   static Future<Map> readJsonFile() async =>
       jsonDecode(File(filePath).readAsStringSync());
