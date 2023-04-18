@@ -44,6 +44,7 @@
                     "falas": []
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -96,6 +97,7 @@
                     "falas": []
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -212,6 +214,7 @@
                     ]
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -292,6 +295,7 @@
                     ]
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -328,6 +332,7 @@
                     "falas": []
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -461,6 +466,7 @@
                     ]
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -497,6 +503,7 @@
                     "falas": []
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -533,6 +540,7 @@
                     "falas": []
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -581,6 +589,7 @@
                     "falas": []
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -633,6 +642,7 @@
                     "falas": []
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -693,6 +703,7 @@
                     "falas": []
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -733,6 +744,7 @@
                     "falas": []
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -778,6 +790,7 @@
                     ]
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -826,6 +839,7 @@
                     ]
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -936,6 +950,7 @@
                     ]
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -1028,6 +1043,7 @@
                     "falas": []
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -1064,6 +1080,7 @@
                     "falas": []
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -1100,6 +1117,7 @@
                     "falas": []
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -1148,6 +1166,7 @@
                     "falas": []
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -1216,6 +1235,7 @@
                     "falas": []
                 }
             ],
+            "justificaram": [],
             "presentes": [
                 "camb",
                 "carl",
@@ -1236,9 +1256,6 @@
                 "afra",
                 "heli",
                 "sedi"
-            ],
-            "justificaram": [
-                "lici"
             ]
         }
     ]

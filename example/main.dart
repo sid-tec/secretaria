@@ -2,28 +2,52 @@ import 'dart:io';
 
 import 'package:secretaria/secretaria.dart';
 import 'package:secretaria/src/model/structures/reuniao.dart';
+import 'package:secretaria/src/model/structures/servidores.dart';
+import 'package:secretaria/src/repository/dados_servidores.dart';
 import 'package:secretaria/src/repository/file_repo.dart';
 //
 
 void main(List<String> arguments) async {
   var reunioes = await Repo.reunioes();
 
-  // var atas = [];
+  var atas = [];
   for (var r in reunioes) {
     print('=======================================\n\n');
     print(r);
-    // var ata = Ata(Reuniao.cria()).ata();
-    //atas.add(ata);
+    var pres = <String>[];
+    var just = <String>[];
+    var paut = <Map<dynamic, dynamic>>[];
+    for (var element in r['presentes']) {
+      pres.add(element.toString());
+    }
+    for (var element in r['justificaram']) {
+      just.add(element.toString());
+    }
+    var reuniao = Reuniao.cria(
+        numero: r['numero'],
+        ordinaria: r['ordinaria'],
+        data: r['data'],
+        aprovada: r['aprovada'],
+        local: r['local'],
+        presidente: r['presidente'],
+        presentes: pres,
+        justificaram: just,
+        pauta: paut);
+    atas.add(Ata(reuniao).ata());
   }
+
+  print(atas);
 
   //geraTsv(atas);
 
-  //print(Servidores.nomes);
+/*   for (var serv in DadosServidores.listaCSV()) {
+    print(serv);
+  } */
   //Repo.saveJsonFile({"reunioes": reunioes});
 }
 
 /* void geraDocx(
-  String cabecalho,
+  String cabecalho'],
   String corpo,
   int numero,
 ) async {

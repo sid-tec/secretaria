@@ -43,28 +43,33 @@ class Reuniao extends ValueTree implements IReuniao {
       ]);
 
   @override
-  int get numero => value(what: 'numero').first;
+  int get numero => whatValue('numero', '.....ERRO....');
   //
   @override
-  int get aprovada => value(what: 'aprovada').first;
+  int get aprovada => whatValue('aprovada', '.....ERRO....');
   //
   @override
-  bool get ordinaria => value(what: 'ordinaria').first;
+  bool get ordinaria => whatValue('ordinaria', '.....ERRO....');
   //
   @override
-  String get local => value(what: 'local').first;
+  String get local => whatValue('local', '.....ERRO....');
   //
   @override
-  DateTime get data => value(what: 'data').first;
+  DateTime get data {
+    Data d = whatValue('data', '.....ERRO....');
+    return DateTime.parse(d.values.first['data']);
+  }
+
+  //=> DateTime(int.parse());
   //
   @override
-  IServidor get presidente => value(what: 'presidente').first;
+  IServidor get presidente => whatValue('presidente').first;
   //
   @override
-  List<IServidor> get presentes => value(what: 'presentes').first;
+  List<IServidor> get presentes => whatValue('presentes').first;
   //
   @override
-  List<IServidor> get justificaram => value(what: 'justificaram').first;
+  List<IServidor> get justificaram => whatValue('justificaram').first;
   @override
-  List<IItem> get pauta => value(what: 'pauta').first;
+  List<IItem> get pauta => whatValue('pauta').first;
 }

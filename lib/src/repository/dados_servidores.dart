@@ -4,6 +4,7 @@ enum DadosServidores implements IServidor {
   airt(
     key: 'airt',
     professor: true,
+    aposentado: false,
     nome: "Airton Bodstein de Barros",
     curto: "Airton",
     siape: "306380-1",
@@ -15,28 +16,31 @@ enum DadosServidores implements IServidor {
   camb(
     key: 'camb',
     professor: true,
+    aposentado: false,
     nome: "Odivaldo Cambraia Alves",
     curto: "Odivaldo",
     siape: "699056-3",
     cpf: "23639628268",
-    email: "cambraia@vm.uff.br",
+    email: "odivaldocambraia@id.uff.br",
     sala: "309",
     masculino: true,
   ),
   carl(
     key: 'carl',
     professor: true,
+    aposentado: false,
     nome: "Carlos Andres Ortiz Bravo",
     curto: "Carlos Ortiz",
     siape: "2285915",
     cpf: "",
-    email: "carlos.ortiz0511@gmail.com",
+    email: "carlosortiz@id.uff.br",
     sala: "511",
     masculino: true,
   ),
   caue(
     key: 'caue',
     professor: true,
+    aposentado: false,
     nome: "Cauê Torres de Oliveira Guedes Costa",
     curto: "Cauê",
     siape: "119388-9",
@@ -48,6 +52,7 @@ enum DadosServidores implements IServidor {
   edua(
     key: 'edua',
     professor: true,
+    aposentado: false,
     nome: "Eduardo Ariel Ponzio",
     curto: "Eduardo",
     siape: "1560291",
@@ -59,17 +64,19 @@ enum DadosServidores implements IServidor {
   fabi(
     key: 'fabi',
     professor: true,
+    aposentado: false,
     nome: "Fabiana Monteiro de Oliveira",
     curto: "Fabiana",
     siape: "1332073",
     cpf: "11198114738",
-    email: "fabiana@fisica.if.uff.br",
+    email: "fabianaoliveira@id.uff.br",
     sala: "411",
     masculino: false,
   ),
   joao(
     key: 'joao',
     professor: true,
+    aposentado: false,
     nome: "João Guilherme Siqueira Monteiro",
     curto: "João Guilherme",
     siape: "138090-2",
@@ -81,50 +88,55 @@ enum DadosServidores implements IServidor {
   juli(
     key: 'juli',
     professor: true,
+    aposentado: false,
     nome: "Júlio César Martins da Silva",
     curto: "Júlio César",
     siape: "305929-1",
     cpf: "",
-    email: "quimijulio@gmail.com",
+    email: "juliocms@id.uff.br",
     sala: "307A",
     masculino: true,
   ),
   kati(
     key: 'kati',
     professor: true,
+    aposentado: false,
     nome: "Kátia Zaccur Leal",
     curto: "Kátia",
     siape: "308719-0",
     cpf: "",
-    email: "kzleal@uol.com.br",
+    email: "katialeal@id.uff.br",
     sala: "513",
     masculino: false,
   ),
   luca(
     key: 'luca',
     professor: true,
+    aposentado: false,
     nome: "Carlos Alberto Lucas",
     curto: "Carlos Alberto",
     siape: "310530-9",
     cpf: "",
-    email: "caluccas2006@yahoo.com.br",
+    email: "carloslucas@id.uff.br",
     sala: "303",
     masculino: true,
   ),
   luci(
     key: 'luci',
     professor: true,
+    aposentado: false,
     nome: "Luciano Tavares da Costa",
     curto: "Luciano",
     siape: "171542-2",
     cpf: "",
-    email: "costalt@gmail.com",
+    email: "ltcosta@id.uff.br",
     sala: "309",
     masculino: true,
   ),
   luiz(
     key: 'luiz',
     professor: true,
+    aposentado: false,
     nome: "Luiz Sérgio Radino Lamego",
     curto: "Luiz Sérgio",
     siape: "310914-2",
@@ -136,17 +148,19 @@ enum DadosServidores implements IServidor {
   raph(
     key: 'raph',
     professor: true,
+    aposentado: false,
     nome: "Raphael da Costa Cruz",
     curto: "Raphael",
     siape: "253682-1",
     cpf: "",
-    email: "rdccruz@vm.uff.br",
+    email: "rccruz@id.uff.br",
     sala: "515",
     masculino: true,
   ),
   robe(
     key: 'robe',
     professor: true,
+    aposentado: false,
     nome: "Roberto Carlos Alvim Cid",
     curto: "Roberto",
     siape: "303590-4",
@@ -158,6 +172,7 @@ enum DadosServidores implements IServidor {
   rosa(
     key: 'rosa',
     professor: true,
+    aposentado: true,
     nome: "Rosana Janot Martins",
     curto: "Rosana",
     siape: "310743-3",
@@ -169,17 +184,19 @@ enum DadosServidores implements IServidor {
   rose(
     key: 'rose',
     professor: true,
+    aposentado: false,
     nome: "Rose Mary Latini Cova",
     curto: "Rose",
     siape: "730739-8",
     cpf: "",
-    email: "rose.latini@gmail.com",
+    email: "roselatini@id.uff.br",
     sala: "411",
     masculino: false,
   ),
   soni(
     key: 'soni',
     professor: true,
+    aposentado: false,
     nome: "Sonia Regina Alves Nogueira de Sá",
     curto: "Sonia",
     siape: "311646-7",
@@ -191,6 +208,7 @@ enum DadosServidores implements IServidor {
   afra(
     key: 'afra',
     professor: false,
+    aposentado: false,
     nome: "José Afrânio Brenelli",
     curto: "José",
     siape: "1461790",
@@ -202,6 +220,7 @@ enum DadosServidores implements IServidor {
   heli(
     key: 'heli',
     professor: false,
+    aposentado: false,
     nome: "Hélio Ricardo Xavier Pimentel",
     curto: "Hélio",
     siape: "1072749-2",
@@ -210,9 +229,10 @@ enum DadosServidores implements IServidor {
     sala: "L205",
     masculino: false,
   ),
-  lici(
+/*   lici(
     key: 'lici',
     professor: false,
+    aposentado: false,
     nome: "Liciane Ferreira Plouvier",
     curto: "Liciane",
     siape: "1793483",
@@ -220,15 +240,16 @@ enum DadosServidores implements IServidor {
     email: "liciane13@hotmail.com",
     sala: "L205",
     masculino: false,
-  ),
+  ), */
   sedi(
     key: 'sedi',
     professor: false,
+    aposentado: false,
     nome: "Sedinir Consentini de Souza",
     curto: "Sedinir",
     siape: "1971386",
     cpf: "",
-    email: "riommx@gmail.com",
+    email: "sconsentini@id.uff.br",
     sala: "307",
     masculino: true,
   );
@@ -236,6 +257,7 @@ enum DadosServidores implements IServidor {
   const DadosServidores({
     required this.key,
     required this.professor,
+    required this.aposentado,
     required this.nome,
     required this.curto,
     required this.siape,
@@ -263,6 +285,8 @@ enum DadosServidores implements IServidor {
   final bool masculino;
   @override
   final bool professor;
+  @override
+  final bool aposentado;
 
   @override
   String get pronome => masculino ? 'o ' : 'a ';
@@ -314,4 +338,21 @@ enum DadosServidores implements IServidor {
 
   static Iterable<IServidor> tecns(List<IServidor> servidores) =>
       servidores.where((p) => !p.professor);
+
+  static Iterable<String> listaCSV(
+      {bool tambemServidores = true, bool tambemAposentados = false}) {
+    final lista = <String>[];
+    for (var serv in DadosServidores.values) {
+      if (tambemServidores || serv.professor) {
+        if (tambemAposentados || !serv.aposentado) {
+          var v =
+              '${DadosServidores.seEProfessor(serv.professor)},${serv.nome},${serv.email}';
+          lista.add(v);
+        }
+      }
+    }
+    return lista;
+  }
+
+  static String seEProfessor(bool seSim) => seSim ? 'Professor' : 'Servidor';
 }
