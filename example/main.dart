@@ -14,6 +14,7 @@ void main(List<String> arguments) async {
   for (var r in reunioes) {
     print('=======================================\n\n');
     print(r);
+
     var pres = <String>[];
     var just = <String>[];
     var paut = <Map<dynamic, dynamic>>[];
@@ -33,6 +34,8 @@ void main(List<String> arguments) async {
         presentes: pres,
         justificaram: just,
         pauta: paut);
+    print(reuniao);
+
     atas.add(Ata(reuniao).ata());
   }
 

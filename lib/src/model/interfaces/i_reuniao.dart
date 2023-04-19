@@ -6,7 +6,7 @@ abstract class IReuniao {
   int get aprovada;
   bool get ordinaria;
   String get local;
-  DateTime get data;
+  String get data;
   IServidor get presidente;
   List<IServidor> get presentes;
   List<IServidor> get justificaram;

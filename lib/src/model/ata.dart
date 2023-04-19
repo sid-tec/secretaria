@@ -47,7 +47,8 @@ class Ata {
         'Ata da ${reuniao.numero}ª Reunião ${Helper.tipoReuniao(reuniao.ordinaria)} ';
     r += 'do Departamento de Físico-Química, ';
     r += 'do Instituto de Química, da Universidade Federal Fluminense. ';
-    r += 'Em ${reuniao.data.day}/${reuniao.data.month}/${reuniao.data.year}. ';
+    var data = DateTime.parse(reuniao.data);
+    r += 'Em ${data.day}/${data.month}/${data.year}. ';
     r += reuniao.aprovada > 0
         ? 'Aprovada na ${reuniao.aprovada}ª RO.'
         : 'Ainda para aprovação, versão de ${DateTime.now().day}/${DateTime.now().month}/${DateTime.now().year}.';
@@ -189,8 +190,9 @@ class Ata {
   String nome() {
     var retorno = 'Ata da ${reuniao.numero} R';
     retorno += reuniao.ordinaria ? 'O ' : 'E ';
-    var mes = Helper.meses[reuniao.data.month];
-    retorno += 'em $mes de ${reuniao.data.year} - ';
+    var data = DateTime.parse(reuniao.data);
+    var mes = Helper.meses[data.month];
+    retorno += 'em $mes de ${data.year} - ';
     retorno += reuniao.aprovada > 0
         ? 'Aprovada na ${reuniao.aprovada} RO'
         : 'Ainda por aprovar';

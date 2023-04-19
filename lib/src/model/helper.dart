@@ -55,7 +55,9 @@ abstract class Helper {
 
   // ==============================
 
-  static String dataHorario(DateTime data) {
+  static String dataHorario(String dataString) {
+    var data = DateTime.parse(dataString);
+
     var r = 'dia ${dias[data.day]} ';
     r += 'de ${meses[data.month]} ';
     r += 'de ${data.year}, ${semana[data.weekday]}, ';
