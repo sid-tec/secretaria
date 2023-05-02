@@ -14,7 +14,7 @@ void main(List<String> arguments) async {
   for (var r in reunioes) {
     print('=======================================\n\n');
     print(r);
-
+/* 
     var pres = <String>[];
     var just = <String>[];
     var paut = <Map<dynamic, dynamic>>[];
@@ -36,10 +36,10 @@ void main(List<String> arguments) async {
         pauta: paut);
     print(reuniao);
 
-    atas.add(Ata(reuniao).ata());
+    atas.add(Ata(reuniao).ata()); */
   }
 
-  print(atas);
+  //print(atas);
 
   //geraTsv(atas);
 
