@@ -1,4 +1,5 @@
 import 'package:secretaria/src/model/interfaces/i_reuniao.dart';
+import 'package:secretaria/src/model/reuniao_helper.dart';
 import 'package:sid_d_d/sid_d_d.dart';
 //
 import '../interfaces/i_item.dart';
@@ -43,24 +44,41 @@ class Reuniao extends ValueTree implements IReuniao {
       ]);
 
   @override
-  int get numero => values.first['numero'];
+  String get numero => values.first['numero'].toString();
   //
   @override
-  int get aprovada => values.first['aprovada'];
+  String get aprovada => values.first['aprovada'] > 0
+      ? 'Aprovada na ${values.first['aprovada']}ª RO.'
+      : 'Ainda para aprovação, versão de ${DateTime.now().day}/${DateTime.now().month}/${DateTime.now().year}.';
   //
   @override
-  bool get ordinaria => values.first['ordinaria'];
+  String get aprovadaFileName => values.first['aprovada'] > 0
+      ? 'Aprovada na ${values.first['aprovada']} R${tipoReuniao.substring(1)}'
+      : 'Ainda por aprovar';
+  //
+  @override
+  String get tipoReuniao =>
+      ReuniaoHelper.tipoReuniao(values.first['ordinaria']);
   //
   @override
   String get local => values.first['local'];
   //
   @override
-  //String get data => values.first['data'];
-  String get data {
-    print(values);
-    String d = values.first['data'];
-    return d;
+  String get dataSimples {
+    var date = DateTime.parse(values.first['data']);
+    return '${date.day}/${date.month}/${date.year}';
   }
+
+  @override
+  String get dataFileName {
+    var date = DateTime.parse(values.first['data']);
+    var mes = ReuniaoHelper.meses[date.month];
+    return 'em $mes de ${date.year}';
+  }
+
+  //
+  @override
+  String get dataCompleta => ReuniaoHelper.dataCompleta(values.first['data']);
 
   //=> DateTime(int.parse());
   //

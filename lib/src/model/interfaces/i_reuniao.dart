@@ -2,11 +2,16 @@ import 'i_servidor.dart';
 import 'i_item.dart';
 
 abstract class IReuniao {
-  int get numero;
-  int get aprovada;
-  bool get ordinaria;
+  String get numero;
+  String get aprovada;
+  String get aprovadaFileName;
+
+  String get tipoReuniao;
   String get local;
-  String get data;
+  String get dataCompleta;
+  String get dataSimples;
+  String get dataFileName;
+
   IServidor get presidente;
   List<IServidor> get presentes;
   List<IServidor> get justificaram;
