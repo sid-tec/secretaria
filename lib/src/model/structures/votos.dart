@@ -1,4 +1,4 @@
-import 'package:sid_d_d/sid_d_d.dart';
+/* import 'package:sid_d_d/sid_d_d.dart';
 
 class Votos extends ValueLeaf<List<int>> {
   //
@@ -15,3 +15,4 @@ class Votos extends ValueLeaf<List<int>> {
     return f;
   }
 }
+ */

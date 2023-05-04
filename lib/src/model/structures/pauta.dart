@@ -1,4 +1,4 @@
-import 'package:sid_d_d/sid_d_d.dart';
+/* import 'package:sid_d_d/sid_d_d.dart';
 //
 import 'item.dart';
 
@@ -20,3 +20,4 @@ class Pauta extends ValueTree {
     return Pauta._(what: 'pauta', values: lista);
   }
 }
+ */

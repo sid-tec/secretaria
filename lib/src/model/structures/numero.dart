@@ -1,4 +1,4 @@
-import 'package:sid_d_d/sid_d_d.dart';
+/* import 'package:sid_d_d/sid_d_d.dart';
 
 class Numero extends ValueLeaf<int> {
   //
@@ -14,3 +14,4 @@ class Numero extends ValueLeaf<int> {
     return f;
   }
 }
+ */

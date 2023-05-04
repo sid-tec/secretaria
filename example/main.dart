@@ -1,19 +1,20 @@
-import 'dart:io';
-
 import 'package:secretaria/secretaria.dart';
 import 'package:secretaria/src/model/structures/reuniao.dart';
-import 'package:secretaria/src/model/structures/servidores.dart';
-import 'package:secretaria/src/repository/dados_servidores.dart';
-import 'package:secretaria/src/repository/file_repo.dart';
 //
 
-void main(List<String> arguments) async {
+void main() async {
   var reunioes = await Repo.reunioes();
+  print(reunioes.first);
+  var reuniao = Reuniao(reunioes.first);
+  print('=======================================\n\n');
+  var ata = Ata(reuniao);
+  print(ata.ata());
 
-  var atas = [];
-  for (var r in reunioes) {
-    print('=======================================\n\n');
-    print(r);
+  /* for (var r in reunioes) {
+
+    
+    //print(reuniao.presentes);
+    
 /* 
     var pres = <String>[];
     var just = <String>[];
@@ -38,7 +39,7 @@ void main(List<String> arguments) async {
 
     atas.add(Ata(reuniao).ata()); */
   }
-
+ */
   //print(atas);
 
   //geraTsv(atas);

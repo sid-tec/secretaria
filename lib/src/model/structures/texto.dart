@@ -1,4 +1,4 @@
-import 'package:sid_d_d/sid_d_d.dart';
+/* import 'package:sid_d_d/sid_d_d.dart';
 
 class Texto extends ValueLeaf<String> {
   //
@@ -14,3 +14,4 @@ class Texto extends ValueLeaf<String> {
     return f;
   }
 }
+ */

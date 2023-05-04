@@ -1,4 +1,4 @@
-import 'package:sid_d_d/sid_d_d.dart';
+/* import 'package:sid_d_d/sid_d_d.dart';
 
 import 'servidores.dart';
 import 'texto.dart';
@@ -34,3 +34,4 @@ class Fala extends ValueTree {
     return Fala._(values: lista, what: 'fala');
   }
 }
+ */

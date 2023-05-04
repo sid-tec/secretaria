@@ -36,7 +36,8 @@ class Ata {
     r += reuniao.dataCompleta;
     r += ', reúne-se ${reuniao.local}, a plenária do Departamento de ';
     r += 'Físico-Química, sob a presidência do Chefe do Departamento, ';
-    r += 'Professor ${reuniao.presidente.nome}, ';
+    //r += 'Professor ${reuniao.presidente.nome}, ';
+    r += 'Professor ${reuniao.presidente}, ';
     r += 'para a realização da ${reuniao.numero}ª Reunião ';
     r += '${reuniao.tipoReuniao} do GFQ. ';
     //
@@ -118,10 +119,10 @@ class Ata {
     var i = 1;
     for (var item in reuniao.pauta) {
       r += reuniao.pauta.length == 1
-          ? 'único: ${item.titulo}'
-          : '${i++}. ${item.titulo}';
+          ? 'único: ${item['titulo']}'
+          : '${i++}. ${item['titulo']}';
 
-      if (item.incluido.isNotEmpty) {
+/*       if (item['incluido'].isNotEmpty) {
         var quem = item.incluido.first.quem.first;
         r += ' - a inclusão deste item foi proposto pel';
         r += quem.pronome;
@@ -130,7 +131,7 @@ class Ata {
         r += ' ';
         r += quem.nome;
         r += ' e ${item.incluido.first.votos.resultado()}';
-      }
+      } */
       r += reuniao.pauta.length == i - 1 ? '. ' : '; ';
     }
     return r;
@@ -149,14 +150,15 @@ class Ata {
       r += '';
 
       r += reuniao.pauta.length == 1
-          ? 'o item único: ${item.titulo}'
-          : 'o item ${i++}. ${item.titulo}: ${item.descricao}';
+          ? 'o item único: ${item['titulo']}'
+          : 'o item ${i++}. ${item['titulo']}: ${item['descricao']}';
 
-      for (var fala in item.falas) {
+      for (var fala in item['falas']) {
         r += ' Com a palavra ';
+        var quem = DadosServidores.cria(keys)
 
         r += fala.quem.first.pronome;
-        r += fala.quem.first.titulo;
+        r += fala.quem.first['titulo'];
 
         r +=
             '${fala.quem.first.curto}#: ${fala.texto} XXXXXX ${fala.votos.resultado()} ZZZZZZZ ';
