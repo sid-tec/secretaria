@@ -1,3 +1,51 @@
+import 'package:secretaria/src/model/structures/fala.dart';
+import 'package:secretaria/src/repository/dados_servidores.dart';
+
+import '../interfaces/i_item.dart';
+import '../interfaces/i_fala.dart';
+import '../interfaces/i_servidor.dart';
+
+class Item implements IItem {
+  final String _titulo;
+  final String _descricao;
+  final IFala _incluido;
+  final List<IFala> _falas;
+  final List<IServidor> _envolvidos;
+  //
+  Item._(
+    this._titulo,
+    this._descricao,
+    this._incluido,
+    this._falas,
+    this._envolvidos,
+  );
+
+  factory Item.cria(Map item) {
+    var titulo = item['titulo'] ?? '';
+    var descricao = item['descricao'] ?? '';
+    var incluido = Fala.cria(fala: item['incluido'] ?? {});
+    var envolvidos = DadosServidores.cria(item['envolvidos'] ?? []);
+    var falas = <IFala>[];
+    for (var fala in item['falas']) {
+      falas.add(Fala.cria(fala: fala));
+    }
+    return Item._(titulo, descricao, incluido, falas, envolvidos);
+  }
+
+  @override
+  String get titulo => _titulo;
+  @override
+  String get descricao => _descricao;
+  @override
+  IFala get incluido => _incluido;
+  @override
+  List<IFala> get falas => _falas;
+  @override
+  List<IServidor> get envolvidos => _envolvidos;
+}
+
+
+
 /* import 'package:sid_d_d/sid_d_d.dart';
 //
 import 'fala.dart';

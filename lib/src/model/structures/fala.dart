@@ -1,37 +1,39 @@
-/* import 'package:sid_d_d/sid_d_d.dart';
+import '../interfaces/i_fala.dart';
+import '../interfaces/i_servidor.dart';
+import '../interfaces/i_votos.dart';
+import '../../repository/dados_servidores.dart';
 
-import 'servidores.dart';
-import 'texto.dart';
 import 'votos.dart';
 //
 
-class Fala extends ValueTree {
+class Fala implements IFala {
   //
   // ===========================
-  Fala._({
-    required super.values,
-    required super.what,
-  });
+  final String _texto;
+  final IVotos _votos;
+  final List<IServidor> _quem;
+
+  Fala._(this._quem, this._texto, this._votos);
 
   factory Fala.cria({
     required Map fala,
   }) {
-    var lista = <Value>[];
-    for (var entrie in fala.entries) {
-      switch (entrie.key) {
-        case 'texto':
-          lista.add(Texto(what: 'texto', value: entrie.value));
-          break;
-        case 'quem':
-          lista.add(Servidores.cria(servs: entrie.value, what: 'quem'));
-          break;
-        case 'votos':
-          lista.add(Votos(value: entrie.value));
-          break;
-        default:
-      }
-    }
-    return Fala._(values: lista, what: 'fala');
+    var quem = fala.containsKey('quem')
+        ? DadosServidores.cria([fala['quem']])
+        : <IServidor>[];
+
+    var votos =
+        fala.containsKey('votos') ? Votos(fala['votos']) : Votos(<int>[]);
+
+    var texto = fala.containsKey('texto') ? fala['texto'] : '';
+
+    return Fala._(quem, texto, votos);
   }
+
+  @override
+  List<IServidor> get quem => _quem;
+  @override
+  String get texto => _texto;
+  @override
+  IVotos get votos => _votos;
 }
- */

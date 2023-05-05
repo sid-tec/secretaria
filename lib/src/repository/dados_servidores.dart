@@ -299,7 +299,7 @@ enum DadosServidores implements IServidor {
           ? 'tecnico '
           : 'tecnica ';
 
-  static List<IServidor> cria(List<dynamic> keys) {
+  static List<IServidor> cria(List keys) {
     final lista = <IServidor>[];
     for (var key in keys) {
       for (var serv in DadosServidores.values) {

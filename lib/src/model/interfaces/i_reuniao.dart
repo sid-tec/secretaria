@@ -15,5 +15,5 @@ abstract class IReuniao {
   IServidor get presidente;
   List<IServidor> get presentes;
   List<IServidor> get justificaram;
-  List<dynamic> get pauta;
+  List<IItem> get pauta;
 }

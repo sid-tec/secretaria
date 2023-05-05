@@ -119,19 +119,19 @@ class Ata {
     var i = 1;
     for (var item in reuniao.pauta) {
       r += reuniao.pauta.length == 1
-          ? 'único: ${item['titulo']}'
-          : '${i++}. ${item['titulo']}';
+          ? 'único: ${item.titulo}'
+          : '${i++}. ${item.titulo}';
 
-/*       if (item['incluido'].isNotEmpty) {
-        var quem = item.incluido.first.quem.first;
+      if (item.incluido.quem.isNotEmpty) {
+        var quem = item.incluido.quem.first;
         r += ' - a inclusão deste item foi proposto pel';
         r += quem.pronome;
         r += ' ';
         r += quem.titulo;
         r += ' ';
         r += quem.nome;
-        r += ' e ${item.incluido.first.votos.resultado()}';
-      } */
+        r += ' e ${item.incluido.votos.resultado()}';
+      }
       r += reuniao.pauta.length == i - 1 ? '. ' : '; ';
     }
     return r;
@@ -150,16 +150,13 @@ class Ata {
       r += '';
 
       r += reuniao.pauta.length == 1
-          ? 'o item único: ${item['titulo']}'
-          : 'o item ${i++}. ${item['titulo']}: ${item['descricao']}';
+          ? 'o item único: ${item.titulo}'
+          : 'o item ${i++}. ${item.titulo}: ${item.descricao}';
 
-      for (var fala in item['falas']) {
+      for (var fala in item.falas) {
         r += ' Com a palavra ';
-        var quem = DadosServidores.cria(keys)
-
         r += fala.quem.first.pronome;
-        r += fala.quem.first['titulo'];
-
+        r += fala.quem.first.titulo;
         r +=
             '${fala.quem.first.curto}#: ${fala.texto} XXXXXX ${fala.votos.resultado()} ZZZZZZZ ';
       }

@@ -1,51 +1,33 @@
-import 'package:secretaria/src/model/interfaces/i_reuniao.dart';
-import 'package:secretaria/src/model/reuniao_helper.dart';
-import 'package:secretaria/src/repository/dados_servidores.dart';
 //
+import '../interfaces/i_reuniao.dart';
 import '../interfaces/i_item.dart';
 import '../interfaces/i_servidor.dart';
-/* import 'data.dart';
-import 'numero.dart';
-import 'pauta.dart';
-import 'servidor.dart';
-import 'servidores.dart';
-import 'texto.dart'; */
+import '../reuniao_helper.dart';
+import '../structures/item.dart';
+import '../../repository/dados_servidores.dart';
 
-//
 class Reuniao implements IReuniao {
   //
   // ===========================
   final Map _values;
+  final IServidor _presidente;
+  final List<IItem> _pauta;
+  final List<IServidor> _presentes;
+  final List<IServidor> _justificaram;
 
-  Reuniao(this._values);
+  Reuniao._(this._values, this._presidente, this._pauta, this._presentes,
+      this._justificaram);
 
-/*   Reuniao._({
-    required super._values,
-    required super.what,
-  });
-
-  factory Reuniao.cria({
-    required int numero,
-    required bool ordinaria,
-    required String data,
-    required int aprovada,
-    required String local,
-    required String presidente,
-    required List<String> presentes,
-    required List<String> justificaram,
-    required List<Map> pauta,
-  }) =>
-      Reuniao._(what: 'reuniao', _values: [
-        Numero(what: 'numero', value: numero),
-        BoolVo(what: 'ordinaria', value: ordinaria),
-        Data(what: 'data', value: data),
-        Numero(what: 'aprovada', value: aprovada),
-        Texto(what: 'local', value: local),
-        Servidor(what: 'presidente', value: presidente),
-        Servidores.cria(servs: presentes, what: 'presentes'),
-        Servidores.cria(servs: justificaram, what: 'justificaram'),
-        Pauta.cria(pauta: pauta),
-      ]); */
+  factory Reuniao.cria(Map values) {
+    var presidente = DadosServidores.cria([values['presidente']]).first;
+    var presentes = DadosServidores.cria(values['presentes']);
+    var justificaram = DadosServidores.cria(values['justificaram']);
+    var pauta = <IItem>[];
+    for (var item in values['pauta'] ?? []) {
+      pauta.add(Item.cria(item));
+    }
+    return Reuniao._(values, presidente, pauta, presentes, justificaram);
+  }
 
   @override
   String get numero => _values['numero'].toString();
@@ -86,15 +68,13 @@ class Reuniao implements IReuniao {
   //=> DateTime(int.parse());
   //
   @override
-  IServidor get presidente =>
-      DadosServidores.cria([_values['presidente']]).first;
+  IServidor get presidente => _presidente;
   //
   @override
-  List<IServidor> get presentes => DadosServidores.cria(_values['presentes']);
+  List<IServidor> get presentes => _presentes;
   //
   @override
-  List<IServidor> get justificaram =>
-      DadosServidores.cria(_values['justificaram']);
+  List<IServidor> get justificaram => _justificaram;
   @override
-  List<dynamic> get pauta => _values['pauta'];
+  List<IItem> get pauta => _pauta;
 }
