@@ -36,8 +36,7 @@ class Ata {
     r += reuniao.dataCompleta;
     r += ', reúne-se ${reuniao.local}, a plenária do Departamento de ';
     r += 'Físico-Química, sob a presidência do Chefe do Departamento, ';
-    //r += 'Professor ${reuniao.presidente.nome}, ';
-    r += 'Professor ${reuniao.presidente}, ';
+    r += 'Professor ${reuniao.presidente.nome}, ';
     r += 'para a realização da ${reuniao.numero}ª Reunião ';
     r += '${reuniao.tipoReuniao} do GFQ. ';
     //

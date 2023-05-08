@@ -4,8 +4,7 @@ import 'package:secretaria/src/model/structures/reuniao.dart';
 
 void main() async {
   var reunioes = await Repo.reunioes();
-  print(reunioes.first);
-  var reuniao = Reuniao.cria(reunioes.first);
+  var reuniao = Reuniao.cria(reunioes.last);
   print('=======================================\n\n');
   var ata = Ata(reuniao);
   print(ata.ata());

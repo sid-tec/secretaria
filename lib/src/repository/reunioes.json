@@ -1257,6 +1257,61 @@
                 "heli",
                 "sedi"
             ]
+        },
+        {
+            "numero": 580,
+            "data": "2023-04-20 13:00:00",
+            "ordinaria": true,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Informes",
+                    "falas": []
+                },
+                {
+                    "titulo": " Aprovação RADs 2022",
+                    "falas": []
+                },
+                {
+                    "titulo": " Quadro de Horários 1/2023",
+                    "falas": []
+                },
+                {
+                    "titulo": "Distribuição das vagas nos projetos de monitoria",
+                    "falas": []
+                },
+                {
+                    "titulo": "Criação da disciplina Uso de Tecnologias Digitais de Informação e Comunicação para o Ensino de Química",
+                    "falas": []
+                },
+                {
+                    "titulo": "Assuntos Gerais",
+                    "falas": []
+                }
+            ],
+            "justificaram": [],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "sedi"
+            ]
         }
     ]
 }
