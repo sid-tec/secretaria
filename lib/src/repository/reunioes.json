@@ -408,15 +408,13 @@
                 },
                 {
                     "titulo": "Projeto de extensão Mostra Científica Virtual DIECI UFF",
-                    "incluido": [
-                        {
-                            "quem": "soni",
-                            "texto": "",
-                            "votos": [
-                                14
-                            ]
-                        }
-                    ],
+                    "incluido": {
+                        "quem": "soni",
+                        "texto": "",
+                        "votos": [
+                            14
+                        ]
+                    },
                     "falas": [
                         {
                             "quem": "soni",
@@ -1262,33 +1260,69 @@
             "numero": 580,
             "data": "2023-04-20 13:00:00",
             "ordinaria": true,
-            "aprovada": 0,
+            "aprovada": 581,
             "local": "de forma remota",
             "presidente": "raph",
             "pauta": [
                 {
                     "titulo": "Informes",
-                    "falas": []
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Informa que: a) o ar-condicionado da secretaria do GFQ encontra-se quebrado. Uma equipe da empresa contratada pela UFF para a instalação e manutenção de ares-condicionados já o avaliou e condenou-o. Seguindo orientação da Direção, estamos aguardando uma nova avalição da equipe da SOMA para avaliarmos o que fazer, já que a compra de novos aparelhos de ar-condicionado, em princípio, não deve ser feita nos próximos meses. Por conta disso, o secretário do GFQ está utilizando a sala da Chefia do Departamento, pois o aparelho de ar de lá está operando normalmente. b) A seleção simplificada para a contratação de um professor substituto do GFQ foi aprovada pela CPD e o edital publicado no DOU. Assim, as inscrições ocorrerão de 17 a 27 de abril e o certame ocorrerá entre 15 e 17 de maio. c) A consulta pública para a preferência da comunidade ao cargo de Diretor e Vice-Diretor do Instituto de Química foi realizada, sendo escolhidos os profs. Silvia Maria Sella e David Rodrigues da Rocha como Diretora e Vice-Diretor do EGQ, respectivamente, no quadriênio de 2023 a 2027. d) Sobre o colegiado do Curso de Farmácia, informa que o mandato da Coordenadora atual, profª Tereza Leitão, está em vias de terminar, mas ela pretende concorrer a reeleição. A fim de não interromper a continuidade dos trabalhos, os decanos daquele Colegiado então concordaram em declinar da administração pro-tempore, de forma que a própria profª Tereza Leitão possa permanecer à frente da Coordenação enquanto não ocorrer a efetivação de uma nova eleição. Tal prática é bastante comum no Colegiado do Curso de Farmácia."
+                        }
+                    ]
                 },
                 {
                     "titulo": " Aprovação RADs 2022",
-                    "falas": []
+                    "falas": [
+                        {
+                            "quem": "robe",
+                            "texto": "Como presidente da Comissão de Avalição Docente, comenta sobre a elaboração dos RADs, os trabalhos de conferência da Comissão e as eventuais retificações de alguns relatórios. E propõe a aprovação dos RADs do ano de 2022.",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ]
                 },
                 {
                     "titulo": " Quadro de Horários 1/2023",
-                    "falas": []
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Informa que o período de ajuste encerrar-se-á apenas no dia dois de maio. E, portanto, ele conclama aos professores do Departamento que deem aula em outros cursos, de graduação e pós-graduação, informem à secretaria os detalhes dos cursos e turmas, a fim de se preencher a segunda tabela do Quadro de Horários 1/2023. A aprovação do mesmo ficará, dessa forma, para a próxima Reunião Ordinária."
+                        }
+                    ]
                 },
                 {
                     "titulo": "Distribuição das vagas nos projetos de monitoria",
-                    "falas": []
+                    "falas": [
+                        {
+                            "quem": "joao",
+                            "texto": "Como presidente da Comissão de Monitoria do GFQ, comenta que, neste período, o GFQ recebeu três bolsas de monitoria da reitoria, ao contrário das habituais duas, que já vinha recebendo há alguns semestres. Como o Departamento tem projetos de monitoria tanto para disciplinas experimentais quanto teóricas, o prof. João Guilherme questiona o Departamento em qual dos dois projetos deve ser alocada a terceira bolsa de monitoria. Após ampla discussão, a questão é posta em votação, sendo onze votos pela alocação em disciplinas experimentais, nenhum voto em disciplinas teóricas e duas abstenções."
+                        }
+                    ]
                 },
                 {
                     "titulo": "Criação da disciplina Uso de Tecnologias Digitais de Informação e Comunicação para o Ensino de Química",
-                    "falas": []
+                    "falas": [
+                        {
+                            "quem": "caue",
+                            "texto": "Como responsável pela disciplina em análise, afirma que o Colegiado dos Cursos de Química manifestou o fato de que somente analisaria a criação de novas disciplinas para os Cursos de Química se estas tivessem horas de extensão, devido à recente obrigação da inclusão de horas extensionista nas disciplinas da Graduação. Diante dessa exigência, o prof. Cauê decidiu reformular o Formulário 13 da sua disciplina, incluindo as horas de extensão e passando a disciplinas ser uma disciplina de sessenta horas. Após longa discussão, é proposta a aprovação da criação da citada disciplina, nesses novos termos, e o respectivo Formulário 13.",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ]
                 },
                 {
                     "titulo": "Assuntos Gerais",
-                    "falas": []
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Comenta de dois assuntos gerais, que poderiam ser dados nos informes, mas que não o foram de forma a se passar logo à apreciação dos pontos da pauta. O primeiro é referente a água mineral do Departamento. O prof. Raphael disse que está sendo feito um novo levantamento de preços e custos dos itens pertinentes e, em breve, será divulgado a todos. O segundo assunto refere-se à substituição da secretária Sandra, aposentada em 2022. O prof. Raphael explicou que tão logo a secretária Sandra se aposentou, foi estabelecido contato com a Progepe, a fim de se verificar a possibilidade de alocação de outro servidor para a vaga. Na época, o que foi informado é que a realização de novos concursos públicos havia sido suspensa por decreto do Governo Federal e, a menos que ocorresse permuta de servidor interessado, a revogação do referido decreto seria imperativo. No entanto, a Progepe garantiu que a demanda do GFQ estaria registrada lá. Depois de cerca a um ano e meio, a discussão tornou à baila e aventou-se a necessidade da inclusão da demanda do GFQ no sistema SisPTA. Depois de um longo questionamento a vários endereços da reitoria, esta Chefia obteve da CPTA a resposta de que o referido sistema se encontra prejudicado para a inclusão de novos gestores e que, por isso, esta Chefia não conseguiu acesso ao mesmo. Além disso, a CPTA reafirmou que a demanda do GFQ está registrada, mas que a situação era a mesma. O referido decreto ainda está em vigor e, portanto, concursos púbicos para provimento de vagas técnico-administrativas estão, temporariamente, suspensos. A CPTA termina sugerindo que o Departamento entre em contato com o reitor a fim de ser verificar a possibilidade de contratação de mão-de-obra terceirizada."
+                        }
+                    ]
                 }
             ],
             "justificaram": [],
@@ -1310,6 +1344,79 @@
                 "soni",
                 "afra",
                 "heli",
+                "sedi"
+            ]
+        },
+        {
+            "numero": 581,
+            "data": "2023-05-12 13:00:00",
+            "ordinaria": true,
+            "aprovada": 0,
+            "local": "de forma remota",
+            "presidente": "raph",
+            "pauta": [
+                {
+                    "titulo": "Informes",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "(... ...)."
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Aprovação da ata da 580a RO",
+                    "descricao": "",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "Propõe então que a ata da 580a seja aprovada, com algumas correções",
+                            "votos": [
+                                14
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Quadro de Horários 1/2023",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "(... ...)."
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Assuntos Gerais",
+                    "falas": [
+                        {
+                            "quem": "raph",
+                            "texto": "(... ...)."
+                        }
+                    ]
+                }
+            ],
+            "justificaram": [],
+            "presentes": [
+                "camb",
+                "carl",
+                "caue",
+                "edua",
+                "fabi",
+                "joao",
+                "juli",
+                "kati",
+                "luca",
+                "luci",
+                "luiz",
+                "raph",
+                "robe",
+                "rosa",
+                "rose",
+                "soni",
+                "afra",
+                "heli",
+                "lici",
                 "sedi"
             ]
         }

@@ -4,8 +4,8 @@ Sub geraAtas()
 For nAta = 1 To 20
     Set fileWord = CreateObject("Word.Application")
     fileWord.Visible = True
-    'Set fileAta = fileWord.Documents.Open("Y:\_DEVS\atas\lib\repository\ata.docx")
-    Set fileAta = fileWord.Documents.Open("C:\GFQ - ADMINISTRATIVA GERAL\atas\lib\repository\ata.docx")
+    'Set fileAta = fileWord.Documents.Open("C:\DEVS\secretaria\lib\office\ata.docx") 'DEVS
+    Set fileAta = fileWord.Documents.Open("D:\DEVS\secretaria\lib\office\ata.docx") 'GFQ
     
 
     With fileAta.Content.Find
@@ -96,8 +96,8 @@ For nAta = 1 To 20
 
 
     
-    'nome = "Y:\_DEVS\atas\lib\repository\" & Sheet1.Cells(nAta, 1)
-    nome = "C:\GFQ - ADMINISTRATIVA GERAL\atas\lib\repository\" & Sheet1.Cells(nAta, 1)
+    'nome = "C:\DEVS\secretaria\lib\office\" & Sheet1.Cells(nAta, 1) 
+    nome = "D:\DEVS\secretaria\lib\office\" & Sheet1.Cells(nAta, 1)
     fileAta.SaveAs2 (nome)
 
     fileAta.Close

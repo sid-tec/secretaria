@@ -149,7 +149,7 @@ class Ata {
       r += '';
 
       r += reuniao.pauta.length == 1
-          ? 'o item único: ${item.titulo}'
+          ? 'o item único: ${item.descricao}:'
           : 'o item ${i++}. ${item.titulo}: ${item.descricao}';
 
       for (var fala in item.falas) {
@@ -157,9 +157,10 @@ class Ata {
         r += fala.quem.first.pronome;
         r += fala.quem.first.titulo;
         r +=
-            '${fala.quem.first.curto}#: ${fala.texto} XXXXXX ${fala.votos.resultado()} ZZZZZZZ ';
+            '${fala.quem.first.curto}#: ${fala.texto} ${fala.votos.resultado()} ';
       }
 
+      r += item.falas.length == 0 ? ' (... FALTA CONTEÚDO ....) ' : '';
       //
 
       r += reuniao.pauta.length == 1 || reuniao.pauta.length == i - 1

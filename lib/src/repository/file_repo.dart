@@ -5,8 +5,8 @@ import 'dart:convert';
 class Repo {
   static var filePath =
       p.join(Directory.current.path, 'lib\\src\\repository', 'reunioes.json');
-  static var tsvPath =
-      p.join(Directory.current.path, 'lib\\src\\repository', 'tsv.txt');
+  static var tsvPath = p.join(
+      Directory.current.path, 'lib\\src\\repository', 'EcomercialSV.txt');
 
   static Future<Map> readJsonFile() async =>
       jsonDecode(File(filePath).readAsStringSync());
@@ -15,9 +15,8 @@ class Repo {
   static Future<void> saveJsonFile(Map map) async =>
       File(filePath).writeAsStringSync(json.encode(map));
 
-  static Future<void> saveTsvFile(String text) async {
-    File('C:\\Users\\Sid\\Documents\\tsv.txt')
-        .writeAsStringSync(text); // C:\Users\Sid\
+  static Future<void> saveEcomercialSV(String text) async {
+    File(tsvPath).writeAsStringSync(text);
   }
 
   static Future<Iterable> reunioes() async {
@@ -26,5 +25,23 @@ class Repo {
       if (element.key == "reunioes") return element.value;
     }
     return [];
+  }
+
+  static void geraEcomecialSV(List atas) async {
+    const separador = '&';
+    final regexp = RegExp(r'&');
+    var r = '';
+    for (Map ata in atas) {
+      String nome = ata['nome'];
+      r += nome.replaceAll(regexp, 'E');
+      r += separador;
+      String cabecalho = ata['cabecalho'];
+      r += cabecalho.replaceAll(regexp, 'E');
+      r += separador;
+      String corpo = ata['corpo'];
+      r += corpo.replaceAll(regexp, 'E');
+      r += '\n';
+    }
+    Repo.saveEcomercialSV(r);
   }
 }
